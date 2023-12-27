@@ -1,0 +1,137 @@
+.background {
+    background: linear-gradient(300deg, #008170, #005B41, #232D3F);
+    background-size: 180% 180%;
+    animation: gradient-animation 0.5s ease infinite;
+}
+
+div .image {
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 7px 10px 1px  rgb(15, 15, 15);
+}
+
+.name {
+    color: rgb(237, 241, 245);
+}
+
+.typed {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+  }
+    
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 60% }
+  }
+
+
+.first-letter {
+    -webkit-text-stroke: 1px rgb(71, 48, 48);
+    color: #88d495;
+    text-shadow: 2px 5px rgb(93, 93, 124)   
+}
+
+.texts p {
+    color: aliceblue;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+.school {
+    color: white;
+}
+
+
+#education ul {
+    color: whitesmoke;
+}
+
+.container{
+    padding-left: 6%;
+}
+
+.flex-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-right: 5%;
+  }
+
+  .card {
+    box-shadow: 5px 10px 5px #080808 ;
+    background: linear-gradient(90deg, #c75c85, transparent) #4e5045;
+  }
+
+  .btn {
+    background: linear-gradient(90deg, #292928, transparent) #9c4377;;
+    border: none;
+    transition: background-color 1s;
+    
+  }
+
+  .btn:hover {
+    background-color: #962466; 
+  }
+  
+  div .text {
+    color: rgb(250, 244, 244);
+  }
+
+  .move-it {
+    box-shadow: 5px 10px 5px #080808 ;
+    background: linear-gradient(90deg, #131111, transparent) #4e5045;
+  }
+
+  .movebtn {
+    background: linear-gradient(90deg, #292928, transparent) #8d8589;;
+    border: none;
+    transition: background-color 1s;
+    
+  }
+
+  .movebtn:hover {
+    background-color: #645f62; 
+  }
+
+  .pricing {
+    box-shadow: 5px 10px 5px #080808 ;
+    background: linear-gradient(90deg, #293680, transparent) #1e667c;
+  }
+
+  .pricebtn {
+    background: linear-gradient(90deg, #5a8cad, transparent) #337691;;
+    border: none;
+    transition: background-color 1s;
+    
+  }
+
+  .pricebtn:hover {
+    background-color: #5cade4; 
+  }
+
+  #contact .texts a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  #contact .texts {
+    color: whitesmoke;
+    
+  }
+
+  #contact .text1 {
+    color: whitesmoke;
+  }
+  
+
